@@ -18,6 +18,8 @@ c = db.cursor()    #facilitate db ops
 
 #==========================================================
 #MAKE ALL FUNCTIONS HERE
+
+#makes tables
 def make_table(table_name, table_cols):
     return "CREATE TABLE " + table_name + " (" + table_cols + ")"
 
